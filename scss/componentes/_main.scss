@@ -1,0 +1,50 @@
+h2{
+    font-size: nth($size , 2 );
+    color:nth($colores , 3 );
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imagenes1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+    margin-right:100px;
+    align-items: center;
+}
+.imagenes2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+    margin-right:100px;
+    align-items: center;
+}
+.imagenes3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+    margin-right:100px;
+    align-items: center;
+}
+.imagen:hover{
+    transform: scale(1.5,1.5)
+}
+h3{
+    text-align: left;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+     font-size: nth($size , 2 );
+     color:nth($colores , 3 );
+     margin-top: 30px;
+     margin-bottom: 20px;
+   }
+p{
+     text-align: justify;
+     font-family: 'Montserrat', sans-serif;
+     font-size: nth($size , 4 );
+     color:nth($colores , 1 );
+     margin-top: 10px;
+     margin-bottom: 10px;
+  }

@@ -1,0 +1,122 @@
+h2 {
+  font-size: 200;
+  color: #c0b283;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imagenes1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 175px;
+  margin-right: 100px;
+  align-items: center;
+}
+
+.imagenes2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 175px;
+  margin-right: 100px;
+  align-items: center;
+}
+
+.imagenes3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 175px;
+  margin-right: 100px;
+  align-items: center;
+}
+
+.imagen:hover {
+  transform: scale(1.5, 1.5);
+}
+
+h3 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 200;
+  color: #c0b283;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 400;
+  color: #373737;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 300;
+  color: #373737;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header {
+  display: flex;
+}
+header nav {
+  background-color: white;
+  text-align: center;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li a {
+  font-size: 700;
+  color: #373737;
+  text-align: center;
+  justify-content: center;
+  justify-items: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  background-color: #dcd0c0;
+  margin-top: 100px;
+}
+footer h4 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 200;
+  color: #c0b283;
+}
+footer p {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 400;
+  color: #373737;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer .tarjeta1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .tarjeta2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

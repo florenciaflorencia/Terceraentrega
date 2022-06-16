@@ -1,0 +1,37 @@
+footer{
+background-color: nth($colores , 2 );;
+margin-top: 100px;
+h4{
+text-align: left;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: nth($size , 2 );
+color:nth($colores , 3 );
+}
+p{
+text-align: justify;
+font-family: 'Montserrat', sans-serif;
+font-size: nth($size , 4 );
+color:nth($colores , 1 );
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.tarjeta1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right:100px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.tarjeta2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right:100px;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+}

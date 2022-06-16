@@ -1,0 +1,30 @@
+h1{
+    font-size: nth($size , 3 );
+    color:nth($colores , 1 );
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+header{
+    display: flex;
+    nav{
+        background-color: white;
+        text-align: center;
+        ul{ 
+        list-style: none;
+            li{
+                a{
+        font-size: nth($size , 7 );
+        color:nth($colores , 1 );
+        text-align: center;
+        justify-content:center;
+        justify-items: auto;
+        font-family:'Montserrat', sans-serif;
+                }
+            }
+        }
+    }
+}
+
