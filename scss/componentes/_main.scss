@@ -1,12 +1,9 @@
 h2{
-    font-size: nth($size , 2 );
-    color:nth($colores , 3 );
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    @extend %display;
+    @includemargenes; 
 }
+
 .imagenes1 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -33,10 +30,7 @@ h2{
 }
 h3{
     text-align: left;
-     font-family: 'Montserrat', sans-serif;
-     font-weight: bold;
-     font-size: nth($size , 2 );
-     color:nth($colores , 3 );
+    @extend %display;
      margin-top: 30px;
      margin-bottom: 20px;
    }
