@@ -1,10 +1,7 @@
 h2{
     text-align: center;
     @extend %display;
-    @include Margenes (20px,20px); 
-}
-.nosotros{
-    @include Margenes;
+    @include margenes;
 }
 
 .imagenes1 {
@@ -29,13 +26,13 @@ h2{
     transform: scale(1.5,1.5)
 }
 h3{
-    text-align: left;
     @extend %display;
      margin-top: 30px;
      margin-bottom: 20px;
+     text-align: map-get($mapas , texalingg);
    }
 p{
-     text-align: justify;
+     text-align:map-get($mapas , textaling );
      font-family: 'Montserrat', sans-serif;
      font-size: nth($size , 4 );
      color:nth($colores , 1 );

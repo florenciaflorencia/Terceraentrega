@@ -2,7 +2,7 @@ footer{
 background-color: nth($colores , 2 );;
 margin-top: 100px;
 h4{
-text-align: left;
+text-align: map-get($mapas, texalingg );
 font-family: 'Montserrat', sans-serif;
 font-weight: bold;
 font-size: nth($size , 2 );
@@ -10,7 +10,7 @@ color:nth($colores , 3 );
 
 }
 p{
-text-align: justify;
+text-align:map-get($mapas , texaling );
 font-family: 'Montserrat', sans-serif;
 font-size: nth($size , 4 );
 color:nth($colores , 1 );
@@ -18,10 +18,8 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 .tarjeta1{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-    margin-right:100px;
+    @include margenes;
+    @include margen;
     justify-content: space-around;
     align-items: center;
 
@@ -29,8 +27,7 @@ margin-bottom: 10px;
 .tarjeta2{
     margin-top: 5px;
     margin-bottom: 10px;
-    margin-left: 100px;
-    margin-right:100px;
+    @include margen;
     justify-content: space-around;
     align-items: center;
   

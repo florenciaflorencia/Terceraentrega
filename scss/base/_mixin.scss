@@ -1,9 +1,6 @@
-@mixin margenes{
+@mixin margenes {
     margin-top: 20px;
-    margin-bottom: 20px;
-    
-}
-@mixin Margenes{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px;}
+@mixin  margen {
+    margin-left: 100px;
+    margin-right:100px;}
