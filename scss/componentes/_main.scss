@@ -1,26 +1,26 @@
 h2{
     text-align: center;
     @extend %display;
-    @includemargenes; 
+    @include Margenes (20px,20px); 
+}
+.nosotros{
+    @include Margenes;
 }
 
 .imagenes1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    @include margenes; 
     margin-left: 175px;
     margin-right:100px;
     align-items: center;
 }
 .imagenes2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    @include margenes; 
     margin-left: 175px;
     margin-right:100px;
     align-items: center;
 }
 .imagenes3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    @include margenes; 
     margin-left: 175px;
     margin-right:100px;
     align-items: center;
